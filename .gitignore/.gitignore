@@ -1,0 +1,158 @@
+
+<html>
+<head>
+<title> CSS first color box </title>
+<style>
+
+ div.row1{ height:200px; width:100%; background-color:lightblue;}
+ 
+div.row1-innerdiv1 {  height:200px; width:25%; background:grey; float:left;}
+div.row1-innerdiv1-circle { margin-top:50px; margin-left:60px; width:50%; height:100px; background-color:blue; border-radius:50%;float:left}
+div.row1-innerdiv2 {  height:200px; width:25%; background:lightgreen; float:left;}
+div.row1-innerdiv2-square { margin-top:50px; margin-left:60px;width:50%; height:100px; background-color:orange;float:left }
+div.row1-innerdiv3 {  height:200px; width:25%; background:yellow; float:left;}
+div.row1-innerdiv3-Square { margin-top:50px; margin-left:60px;width:50%; height:100px; background-color:lightblue;float:left }
+div.row1-innerdiv4 {  height:200px; width:25%; background:orange; float:left;}
+div.row1-innerdiv4-circle { margin-top:50px; margin-left:60px; width:50%; height:100px; background-color:red; border-radius:50%;float:left}
+
+
+
+
+div.row2 { height:200px; width:100%; background:pink; float:left;}
+div.row2-innerdiv1 {  height:200px; width:50%; background:lightblue; float:left;}
+div.row2-innerdiv1-box1 { margin-top:30px; margin-left:46px; width:40%;height:140px;background:brown;float:left; }
+div.row2-innerdiv1-box1-circle { margin-top:20px; margin-left:50px; width:50%; height:100px; background-color:blue; border-radius:50%;float:left;}
+div.row2-innerdiv1-box2 { margin-top:30px; margin-left:0px; width:40%;height:140px;background:pink;float:left; }
+div.row2-innerdiv1-box2-square { margin-top:20px; margin-left:50px;width:50%; height:100px; background-color:black;float:left; }
+div.row2-innerdiv2 {  height:200px; width:50%; background:blue; float:left;}
+div.row2-innerdiv2-box1 { margin-top:30px; margin-left:46px; width:40%;height:140px;background:lightgreen;float:left; }
+div.row2-innerdiv2-box1-square { margin-top:20px; margin-left:50px;width:50%; height:100px; background-color:orange;float:left; }
+div.row2-innerdiv2-box2 { margin-top:30px; margin-left:0px; width:40%;height:140px;background:yellow;float:left; }
+div.row2-innerdiv2-box2-circle { margin-top:20px; margin-left:50px; width:50%; height:100px; background-color:pink; border-radius:50%;float:left;}
+
+
+
+div.row3{ height:200px; width:100%; background:black;float:left;}
+div.row3-innerdiv1 { margin-top:12px; margin-left:20px; width:95%;height:175px;background:lightgreen; float:left; }
+
+div.row3-innerdiv1-box1 {   width:25%;height:175px;background:yellow;float:left; }
+div.row3-innerdiv1-box1-circle { margin-top:38px; margin-left:60px; width:50%; height:100px; background-color:lightgreen; border-radius:50%;float:left;}
+
+
+div.row3-innerdiv1-box2 { width:50%;height:175px;background:orange;float:left; }
+
+div.row3-innerdiv1-box2-innerbox1 { margin-top:0px; margin-left:0px; width:50%;height:88px; background:blue;float:left; }
+div.row3-innerdiv1-box2-innerbox1-square { margin-top:8px; margin-left:66px;width:40%; height:70px; background-color:pink;float:left }
+
+div.row3-innerdiv1-box2-innerbox2 { margin-top:0px; margin-left:0px; width:50%;height:88px; background:yellow;float:left; }
+div.row3-innerdiv1-box2-innerbox2-circle {margin-top:20px; margin-left:65px; width:40%; height:50px; background-color:green; border-radius:50%;float:left;}
+
+div.row3-innerdiv1-box2-innerbox3 { margin-top:0px; margin-left:0px; width:50%;height:88px; background:lightblue;float:left; }
+div.row3-innerdiv1-box2-innerbox3-circle {margin-top:20px; margin-left:65px; width:40%; height:50px; background-color:blue; border-radius:50%;float:left;}
+
+div.row3-innerdiv1-box2-innerbox4 { margin-top:0px; margin-left:0px; width:50%;height:88px; background:lightgreen;float:left; }
+div.row3-innerdiv1-box2-innerbox4-square { margin-top:8px; margin-left:66px;width:40%; height:70px; background-color:orange;float:left }
+
+
+div.row3-innerdiv1-box3{  width:25%; height:175px; background-color:pink;float:left; }
+div.row3-innerdiv1-box3-circle { margin-top:38px; margin-left:60px; width:50%; height:100px; background-color:red; border-radius:50%;float:left;}
+
+
+
+
+div.row4 { height:200px; width:100%; background-color:lightblue; float:left;}
+
+div.row4-innerdiv1 { height:200px; width:25%; background:orange; float:left; }
+div.row4-innerdiv1-outersquare { margin-top:16px; margin-left:28px;width:76%; height:166px; background-color:green;float:left }
+div.row4-innerdiv1-outersquare-circle { margin-top:1px; margin-left:1px; width:99%; height:164px; background-color:pink; border-radius:50%;float:left;}
+
+div.row4-innerdiv2 { height:200px; width:25%; background:red; float:left; }
+div.row4-innerdiv2-outercircle {margin-top:7px; margin-left:34px; width:72%; height:184px; background-color:yellow; border-radius:50%;float:left;}
+div.row4-innerdiv2-outercircle-square { margin-top:26px; margin-left:30px;width:66%; height:134px; background-color:orange;float:left;}
+
+div.row4-innerdiv3 { height:200px; width:25%; background:blue; float:left; }
+div.row4-innerdiv3-square { margin-top:24px; margin-left:41px;width:67%; height:153px; background-color:red;float:left;}
+div.row4-innerdiv3-square-box1 {  margin-top:0px; margin-left:0px;width:50%; height:76px; background-color:lightblue;float:left; }
+div.row4-innerdiv3-square-box2{ margin-top:0px; margin-left:0px;width:50%; height:76px; background-color:green;float:left; }
+div.row4-innerdiv3-square-box3 { margin-top:0px; margin-left:0px;width:50%; height:77px; background-color:gray;float:left; }
+div.row4-innerdiv3-square-box4 { margin-top:0px; margin-left:0px;width:50%; height:77px; background-color:orange;float:left; }
+
+div.row4-innerdiv4 { height:200px; width:25%; background:pink; float:left; }
+div.row4-innerdiv4-square { margin-top:14px; margin-left:30px;width:76%; height:170px; background-color:black;float:left; }
+div.row4-innerdiv4-square-box1 { margin-top:0px; margin-left:0px;width:100%; height:85px; background-color:red;float:left; }
+div.row4-innerdiv4-square-box2 { margin-top:0px; margin-left:0px;width:100%; height:85px; background-color:green;float:left; }
+
+
+</style>
+
+<body style="margin:0;">
+
+<div class="row1">
+<div class="row1-innerdiv1">  <div class="row1-innerdiv1-circle"> </div> </div>
+<div class="row1-innerdiv2"> <div class="row1-innerdiv2-square"> </div>  </div>
+<div class="row1-innerdiv3"> <div class="row1-innerdiv3-square"> </div> </div>
+<div class="row1-innerdiv4"> <div class="row1-innerdiv4-circle"> </div> </div>
+</div>
+
+
+
+<div class="row2"> 
+<div class="row2-innerdiv1">
+<div class="row2-innerdiv1-box1"> <div class="row2-innerdiv1-box1-circle"> </div> </div>
+<div class="row2-innerdiv1-box2"> <div class="row2-innerdiv1-box2-square"> </div> </div>
+</div>
+<div class="row2-innerdiv2"> 
+<div class="row2-innerdiv2-box1"> <div class="row2-innerdiv2-box1-square"> </div> </div>
+<div class="row2-innerdiv2-box2"> <div class="row2-innerdiv2-box2-circle"> </div>  </div>
+</div>
+</div>
+
+
+<div class="row3"> 
+
+<div class="row3-innerdiv1"> 
+<div class="row3-innerdiv1-box1"> <div class="row3-innerdiv1-box1-circle"> </div> </div>
+
+<div class="row3-innerdiv1-box2">
+<div class="row3-innerdiv1-box2-innerbox1"> <div class="row3-innerdiv1-box2-innerbox1-square"> </div> </div>
+<div class="row3-innerdiv1-box2-innerbox2">  <div class="row3-innerdiv1-box2-innerbox2-circle"> </div> </div>
+<div class="row3-innerdiv1-box2-innerbox3">  <div class="row3-innerdiv1-box2-innerbox3-circle"> </div> </div>
+<div class="row3-innerdiv1-box2-innerbox4"> <div class="row3-innerdiv1-box2-innerbox4-square"> </div> </div>
+ </div>
+  
+<div class="row3-innerdiv1-box3"> <div class="row3-innerdiv1-box3-circle"> </div> </div>
+
+</div>
+
+</div>
+
+
+
+<div class="row4"> 
+<div class="row4-innerdiv1"> 
+<div class="row4-innerdiv1-outersquare"> <div class="row4-innerdiv1-outersquare-circle"> </div> </div>
+</div>
+
+<div class="row4-innerdiv2"> 
+<div class="row4-innerdiv2-outercircle"> <div class="row4-innerdiv2-outercircle-square"> </div> </div>
+</div>
+
+<div class="row4-innerdiv3">
+<div class ="row4-innerdiv3-square">
+<div class="row4-innerdiv3-square-box1"> </div>
+<div class="row4-innerdiv3-square-box2"> </div>
+<div class="row4-innerdiv3-square-box3"> </div>
+<div class="row4-innerdiv3-square-box4"> </div>
+ </div>
+ </div>
+ 
+<div class="row4-innerdiv4">
+<div class="row4-innerdiv4-square"> 
+<div class="row4-innerdiv4-square-box1"> </div>
+<div class="row4-innerdiv4-square-box2"> </div>  
+</div>
+</div>
+
+</body>
+</head>
+</html>
